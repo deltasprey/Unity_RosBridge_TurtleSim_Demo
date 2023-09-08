@@ -349,7 +349,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeout: 10
   Protocol: 2
-  RosBridgeServerUrl: ws://131.181.33.216:9090
+  RosBridgeServerUrl: ws://192.168.56.102:9090
 --- !u!4 &563031337
 Transform:
   m_ObjectHideFlags: 0
