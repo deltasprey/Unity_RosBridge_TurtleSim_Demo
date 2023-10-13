@@ -12,12 +12,12 @@ Connection to the ROS websocket is provided by EricVoll's [UWP fork](https://git
 2. Download and run the Microsoft Mixed Reality Feature Tool from: https://www.microsoft.com/en-us/download/details.aspx?id=102778
 3. Install the following features:
    - Mixed Reality Toolkit -> Mixed Reality Toolkit Foundation.
-   - Mixed Reality Toolkit -> Mixed Reality Standard Assets .
+   - Mixed Reality Toolkit -> Mixed Reality Standard Assets.
    - Platform Support -> Mixed Reality OpenXR Plugin.
 4. Go through the MRTK setup.
 5. If errors persist, download NuGet for Unity .unitypackage file from: https://github.com/GlitchEnzo/NuGetForUnity/releases
 6. In your Assests folder, right click -> Import Package -> Custom Package. Select the downloaded file and import.
-   - If a NuGet tab doesn’t appear on your menu bar, click the NuGet file in your Assests folder, enable Load on startup and Apply.
+   - If a NuGet tab doesn’t appear on your menu bar, click the NuGet file in your Assests folder, enable Load on startup in the Inspector and Apply.
    - If it still doesn’t appear then restart (close and reopen) your Unity project. 
 
 ## Usage Instructions
@@ -27,5 +27,5 @@ Connection to the ROS websocket is provided by EricVoll's [UWP fork](https://git
    - ```ifconfig``` (to get your ROS machine's IP address).
    - ```rosrun turtlesim turtlesim_node```
 4. In Unity, click the "Ros Connector" GameObject and change the Ros Bridge Server URL to ```ws://<ROS machine IP Address>:9090```
-5. Run the scene and use the arrow keys to make the Turtlebot move.
+5. Run the scene and use the arrow keys to make the Turtlebot move in both the simulator and the scene.
 6. (Optional) Open a third terminal window on your ROS machine and run ```rosrun rqt_graph rqt_graph``` to see the connection between ROS and Unity.
