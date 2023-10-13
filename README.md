@@ -15,7 +15,7 @@ Connection to the ROS websocket is provided by EricVoll's [UWP fork](https://git
    - Mixed Reality Toolkit -> Mixed Reality Standard Assets .
    - Platform Support -> Mixed Reality OpenXR Plugin.
 4. Go through the MRTK setup.
-5. If errors persist, download NuGet for Unity .unitypackage file from https://github.com/GlitchEnzo/NuGetForUnity/releases
+5. If errors persist, download NuGet for Unity .unitypackage file from: https://github.com/GlitchEnzo/NuGetForUnity/releases
 6. In your Assests folder, right click --> Import Package --> Custom Package. Select the downloaded file and import it.
    - If a NuGet tab doesn’t appear on your menu bar, click the NuGet file in your Assests folder, enable Load on startup and Apply.
    - If it still doesn’t appear then restart (close and reopen) your Unity project. 
